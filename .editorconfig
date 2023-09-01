@@ -1,6 +1,11 @@
 
 root = true
 
+[*]
+insert_final_newline = true
+indent_style = space
+indent_size = 2
+
 [**.{ts,json,js,cjs,mjs,cts,mts}]
 end_of_line = crlf
 charset = utf-8
